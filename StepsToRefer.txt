@@ -1,0 +1,55 @@
+
+Steps while creating Frame Work
+
+----------------------------------
+Pre-requisites:
+
+Step 1 - Create Maven Project
+
+Step 2 - update pom.xml with required dependencies
+
+Step 3 - Create Project Folder Structure
+
+--------------------------------------
+
+Step 4 - Create "Routes.java" file. Which containes URL's
+
+Step 5 - Create "userEndPoints.java" -->CRUD methods implementation.
+
+Step 6 - Craete Tests cases
+
+Step 7 - Create Data Driven Test 
+         - Get the data from Excel sheet
+         - excel Utility
+         - data providers (in utilities)
+         
+Step 8 - Generate extent report
+         - extent report utitlity
+         - testng.xml
+         
+Step 9 - Add Logs
+
+---------------
+Execute tests using pom.xml within Eclipse
+Execute tests using pom.xml using Command Prompt
+Commit code in local repo (git)
+Push code into remote/global repo (GitHub)
+run project in Jenkins (from git github)
+
+---------------------
+CI Process:
+
+Pre-reqs:
+Download and install GIT
+
+git init
+git config --global user.name "your name"
+git config --global user.email "email address"
+
+git add -a
+create GitHub Account
+
+---
+https://stackoverflow.com/questions/9170832/list-of-java-class-file-format-major-version-numbers
+         - log4j2 dependency
+         - log4j2.xml     (src/test/resources)            
